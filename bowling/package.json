@@ -1,0 +1,14 @@
+{
+  "name": "jg",
+  "private": true,
+  "scripts": {
+    "start": "bun src/index.ts",
+    "test": "bun src/test_game.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
